@@ -109,17 +109,14 @@ param load param_phase_5.param
 
 ```
 gps-denied-waypoint-recovery/
-├── phase3_gps_denial.py        # GPS jamming injection script
-├── phase4_ew_logger.py         # Real-time EW event logger
-├── param_phase_5.param         # Validated ArduPilot parameter set
-├── examples/
-│   └── ew_event_log_run4.kml   # KML output from final validated run
-├── docs/
-│   ├── parameter_config_guide.docx   # Full parameter documentation
-│   └── ew_logger_user_manual.docx    # EW logger operational reference
+├── phase3_gps_denial.py             # GPS jamming injection script
+├── phase4_ew_logger.py              # Real-time EW event logger
+├── param_setup.param                # Validated ArduPilot parameter set
+├── ew_event_log.kml                 # KML output from final validated run
+├── EW_Event_Logger_User_Manual.docx # EW logger operational reference
+├── GPS_Denied_Parameter_Config_G... # Full parameter documentation
 ├── .gitignore
 └── README.md
-```
 
 ---
 
