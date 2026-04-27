@@ -1,0 +1,35 @@
+# ArduPilot logs
+*.BIN
+*.bin
+logs/
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv-ardupilot/
+venv/
+.venv/
+env/
+
+# KML output (keep examples/ only)
+ew_event_log.kml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.log
+*.tmp
